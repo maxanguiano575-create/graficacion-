@@ -4,7 +4,7 @@ rostro = cv.CascadeClassifier(r'C:\Users\Max\Documents\Graficacion\Evalucacion\h
 
 
 if rostro.empty():
-    print(" No se pudo cargar")
+    print(" No cargo")
     exit()
 else:
     print(" cargo correctamente")
